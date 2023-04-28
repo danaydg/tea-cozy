@@ -1,0 +1,111 @@
+* {
+    
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* header */
+.header {
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    
+}
+.logo-left {
+    margin-left: 10px;
+    height: 50px;
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
+.nav ul li{
+    display: inline;
+    list-style-type: none;
+   
+}
+/*misson*/
+.mission {
+   font-family: helvetica;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*vjfxli*_ga*NDM4MzUxMTMyMC4xNjgyMjc4OTQw*_ga_3LRZM6TM9L*MTY4MjYzMjI4NC4xOS4xLjE2ODI2NDA5MjMuMTIuMC4w);
+    height: 700px;
+    width: auto;
+    margin: 50px;
+}
+.mission-container  {
+    position: relative;
+    top: 300px;
+    text-align: center;
+    padding: 10px;
+    
+}
+h2 {
+    font-size: 50px;
+    margin-top: 10px;
+    line-height: 50%;
+}
+/*main*/
+.main-title {
+    font-family: helvetica;
+    text-align: center;
+    padding: 10px;
+} 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figcaption {
+    text-align: center;
+    font-family: helvetica;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/*location*/
+#locations {
+    font-family: helvetica;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*11vy619*_ga*NDM4MzUxMTMyMC4xNjgyMjc4OTQw*_ga_3LRZM6TM9L*MTY4MjY5NTAwNC4yMC4wLjE2ODI2OTUwMDQuNjAuMC4w);
+    height: 600px;
+    
+}
+.locations-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0%);
+}
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    opacity: 1;
+    background-color: rgba(240, 248, 255, 0%);
+}
+.downtown {
+    border-radius: 10px;
+    padding: 50px 70px; 
+}
+.East {
+    padding: 50px 70px;
+    border-radius: 10px;
+}
+.Oakdale {
+    padding: 50px 70px;
+    border-radius: 10px;
+}
+/*bottom*/
+.bottom {
+    height:200px;
+    padding: 100px;
+    text-align: center;
+    font-family: helvetica;
+}
+.footer {
+    margin-left: 20px;
+}
